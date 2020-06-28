@@ -1,15 +1,3 @@
-// ---------------------------------------------------
-// Author    :  Benjamin Kataliko Viranga
-// Community :  Stunt Business
-// Community website : www.stuntbusiness.com
-// 
-// 30 Days - Q&A Java basic
-// Day 2 : 
-// Day 2 | IG : https://www.instagram.com/benjivrik/
-// Subject :  Data types
-// ----------------------------------------------------
-// what would be the output of this program ?
-
 public class Day2
 {
     /**
@@ -72,8 +60,6 @@ public class Day2
         System.out.printf("Your second boolean is %b\n",should_be_false);
         System.out.printf("Your String is %s\n",name);
         System.out.printf("Your Integer is %d\n",val);
-
-        System.out.println("End of program.");
 
 
     }
