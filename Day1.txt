@@ -1,0 +1,9 @@
+What is java programming ?
+
+A programming Language strictly in Object Oriented Programming (OOP).
+
+Qu'est-ce que java ?
+
+Un langage de programming en Orienté Object (OOP)
+
+ You can find a full documentation here :  https://docs.oracle.com/javase/9/docs/api/overview-summary.html
