@@ -10,6 +10,7 @@
 // ----------------------------------------------------
 // what would be the output of this program ?
 
+import java.text.Format;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -63,20 +64,47 @@ public class Day9
 
             while(max_attempts > 0)
             {
+                // user value
+                int user_value = 0; 
                 System.out.printf("You have %d attempts left.\n", max_attempts);
+                System.out.printf("Enter a value (integer) : ");
+                user_value = sc.nextInt();
+                System.out.printf("\n");
+
+                if(user_value > generated_number)
+                {
+                    System.out.println("This value is higher than expected.\n");
+                }
+                else if (user_value < generated_number)
+                {
+                    System.out.println("This value is lower than expected.\n");
+                }
+                else // the user found the number
+                {
+                    System.out.println(
+                        "Congrats\n"+
+                         String.format("You entered %d.\n", user_value)+
+                         String.format("And the correct value is also %d.\n", generated_number)
+                    );
+                    break;
+                }
+
                 max_attempts--;
-                generated_number++;
             }
             // ask the user if he wants to continue
             System.out.printf("Do you wanna stop ? (yes or no) :");
             stop = sc.next();
             System.out.println("\n");
 
+            if(stop.equals("no"))
+                max_attempts = 5;
+
         }
 
         // close the scanner 
         sc.close();
-
+        System.out.println("End of the program.");
     }
+  
     
 }
