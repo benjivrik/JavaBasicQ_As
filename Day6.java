@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 // ---------------------------------------------------
 // Author    :  Benjamin Kataliko Viranga
@@ -11,6 +10,7 @@ import java.util.Scanner;
 // Subject :  Conditions
 // ----------------------------------------------------
 // what would be the output of this program ?
+import java.util.Scanner;
 
 public class Day6 {
     /**
