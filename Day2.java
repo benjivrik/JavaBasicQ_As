@@ -13,6 +13,7 @@
 public class Day2
 {
     /**
+     *
      *  How do you declare a class ? 
      * 
      * Modifier class class_name

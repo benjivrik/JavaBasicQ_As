@@ -8,7 +8,7 @@ import java.util.Scanner;
 // 30 Days - Q&A Java basic
 // Day 6 : 
 // Day 6 | IG : https://www.instagram.com/benjivrik/
-// Subject :  conditions
+// Subject :  Conditions
 // ----------------------------------------------------
 // what would be the output of this program ?
 

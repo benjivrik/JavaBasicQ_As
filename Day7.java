@@ -6,7 +6,7 @@
 // 30 Days - Q&A Java basic
 // Day 7 : 
 // Day 7 | IG : https://www.instagram.com/benjivrik/
-// Subject :  challenge IV - basic calculator
+// Subject :  Challenge IV - basic calculator
 // ----------------------------------------------------
 // what would be the output of this program ?
 
