@@ -6,7 +6,7 @@
 // 30 Days - Q&A Java basic
 // Day 8 : 
 // Day 8 | IG : https://www.instagram.com/benjivrik/
-// Subject :    class Random 
+// Subject :    import class Random 
 // ----------------------------------------------------
 // what would be the output of this program ?
 

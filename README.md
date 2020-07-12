@@ -16,7 +16,7 @@ Day 6 : Conditions
 
 Day 7 : Challenge IV - basic calculator
 
-Day 8 : 
+Day 8 : import class Random
 
 Day 9 : 
 
