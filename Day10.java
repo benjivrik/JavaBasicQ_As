@@ -88,7 +88,6 @@ public class Day10
      }
 
      // a function for shuffling the password at the end
-     // stackoverflow mainly help with this fucntion. :)
      public static String shuffle(String password)
      {
         // use this list for storing all the characters in your password
