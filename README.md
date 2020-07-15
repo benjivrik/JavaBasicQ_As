@@ -12,17 +12,17 @@ Day 4 : Challenge II - Input and user functions using the Scanner util from java
 
 Day 5 : Challenge III - Input and user functions using the Scanner and args util from java
 
-Day 6 : Conditions
+Day 6 : Conditions and booleans
 
 Day 7 : Challenge IV - basic calculator
 
 Day 8 : import class Random
 
-Day 9 : 
+Day 9 : Challenge V - Guess the number
 
-Day 10: 
+Day 10: Challenge VI - Generate Password
 
-Day 11: 
+Day 11: Challenge VII - Rock, Paper, Scissors
 
 Day 12: 
 
