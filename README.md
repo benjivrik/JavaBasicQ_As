@@ -24,7 +24,7 @@ Day 10: Challenge VI - Generate Password
 
 Day 11: Challenge VII - Rock, Paper, Scissors
 
-Day 12: 
+Day 12: Dictionary (key,value) using java Hashmap
 
 Day 13: 
 
