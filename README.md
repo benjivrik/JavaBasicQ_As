@@ -26,9 +26,9 @@ Day 11: Challenge VII - Rock, Paper, Scissors
 
 Day 12: Dictionary (key,value) using java Hashmap
 
-Day 13: 
+Day 13: Module JfreeChart
 
-Day 14: 
+Day 14: Challenge VIII - Plot your data from your Hasmap "Dictionary"
 
 Day 15: 
 

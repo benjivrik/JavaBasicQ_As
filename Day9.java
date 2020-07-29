@@ -10,7 +10,7 @@
 // ----------------------------------------------------
 // what would be the output of this program ?
 
-import java.text.Format;
+
 import java.util.Random;
 import java.util.Scanner;
 
