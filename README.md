@@ -30,17 +30,17 @@ Day 13: Module JfreeChart
 
 Day 14: Challenge VIII - Plot your data from your Hasmap "Dictionary"
 
-Day 15: 
+Day 15: File Handling
 
-Day 16: 
+Day 16: Web Scraping with java
 
-Day 17: 
+Day 17: Challenge IX - Writing in a File
 
-Day 18: 
+Day 18: Challenge X - Data Processing - Read and Plot
 
-Day 19: 
+Day 19: Mini Store with Employees and Items.
 
-Day 20: 
+Day 20: File Manager
 
 Day 21: 
 
