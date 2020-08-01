@@ -106,7 +106,7 @@ public class Day13
          "Random integers vs Their IDs");
 
         chart.pack();
-        RefineryUtilities.centerFrameOnScreen( chart );
+        RefineryUtilities.centerFrameOnScreen( chart );  // center your frame in your screen
         chart.setVisible( true );
     }
 }
