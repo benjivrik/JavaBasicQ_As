@@ -1,0 +1,3 @@
+Hello, I am a text.
+Append this text inside your file.!
+Added!

@@ -11,28 +11,29 @@
 // what would be the output of this program ?
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Day15 
 {
-    // File file = 
-    //   new File("C:\\Users\\pankaj\\Desktop\\test.txt"); 
-    // Scanner sc = new Scanner(file); 
-  
-    // while (sc.hasNextLine()) 
-    //   System.out.println(sc.nextLine());
 
-    //     try
-    // {
-    //     String filename= "MyFile.txt";
-    //     FileWriter fw = new FileWriter(filename,true); //the true will append the new data
-    //     fw.write("add a line\n");//appends the string to the file
-    //     fw.close();
-    // }
-    // catch(IOException ioe)
-    // {
-    //     System.err.println("IOException: " + ioe.getMessage());
-    // }
+    // Basic User-file Interaction.
+    // * Let's first open a file, append this text inside
+    
+    // "
+    //     Hello, I am a test.
+    //     Append a text at the end of the file.
+    // "
+    // * Close the file writer
+    // * Print the content of the file
+    // * Close the file writer
+    // * Append this text inside your file.
+    // "
+    //     Added!
+    // "
+    // * When this is done,
+    // * Open the same file again, read the content,and print it.
     private static final String PATH = "text_data/";
     public static void main(String[] args)
     {
@@ -45,7 +46,7 @@ public class Day15
             directory.mkdir();
         }
         
-        File file = new File(PATH + "Day15.txt");
+        File file = new File(PATH + "Day15_data.txt");
         // creating the file if it does not exist
         if(!file.exists())
         {
@@ -68,8 +69,44 @@ public class Day15
                 );
         }
 
+        // writing and reading processes
+        try
+        {
+            // Write inside the file
+            FileWriter writer =  new FileWriter(file.getAbsolutePath());
+            System.out.println("\n----------- WRITING ------------\n");
+            writer.write("Hello, I am a text.\nAppend this text inside your file.!\n");
+            writer.close();
+            Scanner sc = new Scanner(file); 
 
+            System.out.println("\n----------- READING ------------\n");
+            // read the content of the file
+            while (sc.hasNextLine()) 
+              System.out.println(sc.nextLine());
+            
+            sc.close();
+
+            System.out.println("\n----------- WRITING ------------\n");
+            // Append a text at the end of the file
+            writer = new FileWriter(file.getAbsolutePath(), true);
+            writer.write("Added!\n");
+            writer.close();
+
+            System.out.println("\n----------- READING ------------\n");
+            sc = new Scanner(file);
+            // read the content of the file
+            while (sc.hasNextLine()) 
+              System.out.println(sc.nextLine());
+            
+            sc.close();
+
+        }
+        catch(IOException e)
+        {
+            e.printStackTrace();
+        }
+
+        System.out.println("\nEnd of Program\n");
         
     }
-    
-}
+} 

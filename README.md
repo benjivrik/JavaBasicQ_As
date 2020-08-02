@@ -34,19 +34,19 @@ Day 15: File Handling
 
 Day 16: Web Scraping with java
 
-Day 17: Challenge IX - Writing in a File
+Day 17: Challenge IX - Writing in a File ( data coming from the web )
 
 Day 18: Challenge X - Data Processing - Read and Plot
 
-Day 19: Mini Store with Employees and Items.
+Day 19: Mini Store : Employees, Items and the Store | Employees.
 
-Day 20: File Manager
+Day 20: Mini Store : Employees, Items and the Store | Item.
 
-Day 21: 
+Day 21: Mini Store : Employees, Items and the Store | Store.
 
-Day 22: 
+Day 22: Challenge XI
 
-Day 23: 
+Day 23: File Manager
 
 Day 24: 
 
