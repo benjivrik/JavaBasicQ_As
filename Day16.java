@@ -21,7 +21,6 @@ import com.gargoylesoftware.htmlunit.html.HtmlElement;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 
 
-
 @SuppressWarnings("unchecked")
 public class Day16 {
     public static void main(String[] args)
