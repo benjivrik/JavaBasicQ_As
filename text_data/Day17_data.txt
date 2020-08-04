@@ -1,0 +1,10 @@
+
+Tag Id		Tag Content
+0		Services fournis
+1		Tarifs et modes de paiements
+2		Livraison
+3		Garanties
+4		Remboursements et plaintes
+5		Propriété intellectuelle
+6		Futures changements
+7		Lois applicables
