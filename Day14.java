@@ -89,7 +89,6 @@ class Chart extends ApplicationFrame {
         setContentPane( chartPanel );
    }
 
-
 }
 public class Day14 
 {
