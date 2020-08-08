@@ -21,17 +21,10 @@
 // ...
 // Generate your angle from 0 to 360. 
 // And add a 15 degrees span between each angle value.
+// Parse the File you have just created and look for Angles, Cosine and Sine values
+// use the library Jfreechart used in Day13 for your plot
+// Plot the values with the Angles on the X-Axis and Cosine/Sine on the Y axis
 
-// Close the File.
-// Read the File you have just created.
-// and using the matplotlib.pyplot module, 
-// plot the cosine and sine values 
-// with two different graphs.
-// The module numpy will help you to generate the required values
-// for your array.
-// Use its function arange(start,stop,step) where step should be 15
-// in our case.
-// Use the module math for the sine and cosine calculations.
 
 import java.io.File;
 import java.io.FileWriter;
@@ -246,7 +239,7 @@ public class Day18
                 // meaning that is the first line
                 if(Arrays.stream(line).anyMatch(x -> x.equals("Angle")))
                 {   
-                    
+                    // skipe first line with (the titles (Angle, Cosine and Sine))
                     continue;
                     
                 }
@@ -305,8 +298,8 @@ public class Day18
         }
          
 
-         // you will see dots on the X axis. (for displaying the angles)
-         // I did not fix for this code :)
+         // You will see dots on the X axis. (for displaying the angles)
+         // I did not fix it  for this code :)
          // https://stackoverflow.com/questions/45327114/jfreechart-displaying-three-dots-in-place-of-the-values-on-the-x-axis
          
          System.out.println("End of program.");
