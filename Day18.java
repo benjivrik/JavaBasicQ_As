@@ -46,7 +46,7 @@ import org.apache.commons.lang3.StringUtils;
 
 
 import java.util.HashMap;
-import java.util.Random;
+
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
@@ -73,8 +73,10 @@ class Graph extends ApplicationFrame {
 
    }
 
+
+
     /**
-     * 
+     * Add data for the graph, data stored in the Hashmap<>
      * @param rowKey
      * @param dataArray
      */
@@ -91,17 +93,26 @@ class Graph extends ApplicationFrame {
     private DefaultCategoryDataset createDataset() {
         DefaultCategoryDataset dataset = new DefaultCategoryDataset( );
 
-      
+        // get the angles values from the dictionary
+        double[] angles = this.data.get("Angles");
+
+        //remove the angles so that you are only left with the sine and cosine values
+        this.data.remove("Angles");
+        
+        // add data in the dictionary
         for(String rowKey: this.data.keySet())
         {
-            double index = 0; // index for positioning the number
+            int index = 0; // index for positioning the number
             // add the integers in your dataset
+            // each array have the same size
             for(double value : this.data.get(rowKey))
             {
-                dataset.addValue(value, rowKey,Double.toString(index));
-                index++;
+                dataset.addValue(value, rowKey,Double.toString(angles[index++]));
             }
         }
+
+        // add the angles array back into the dictionary
+        this.data.put("Angles", angles);
   
         return dataset;
      }
@@ -113,15 +124,17 @@ class Graph extends ApplicationFrame {
    {
         JFreeChart lineChart = ChartFactory.createLineChart(
             this.chartTitle,
-            "Angle",
+            "Angles",
             "Cosine / Sine Values",
             createDataset(),
             PlotOrientation.VERTICAL,
             true,false,false);
         
+        
         ChartPanel chartPanel = new ChartPanel( lineChart );
-        chartPanel.setPreferredSize( new java.awt.Dimension( 560 , 367 ) );
+        chartPanel.setPreferredSize( new java.awt.Dimension( 680 , 480 ) );
         setContentPane( chartPanel );
+        
    }
 
 }
@@ -222,6 +235,8 @@ public class Day18
             // https://stackoverflow.com/questions/1128723/how-do-i-determine-whether-an-array-contains-a-particular-value-in-java
 
             List<Double> cosine = new ArrayList<Double>();
+            List<Double> sine  = new ArrayList<Double>();
+            List<Double> angles = new ArrayList<Double>();
 
             while (sc.hasNextLine()) 
             {
@@ -240,21 +255,48 @@ public class Day18
                     // remove the empty element in the array
                     line =  Arrays.stream(line).filter(x -> !StringUtils.isBlank(x)).toArray(String[]::new);
 
+                    /**
+                     * 
+                     * index 0 : angle
+                     * index 1 : cosine
+                     * index 2 : sine
+                     * 
+                     */
+                    // add values in the respective list
+                    angles.add(Double.parseDouble(line[0]));
+                    cosine.add(Double.parseDouble(line[1]));
+                    sine.add(Double.parseDouble(line[2]));
+
+                    
+
                     System.out.println(Arrays.toString(line));
                 }
                     
             }
                 
-
-                
             
             sc.close();
 
-            
+            // change your list to array double
+            double[] anglesData = angles.stream().mapToDouble(i->i).toArray();
+            double[] cosineData = cosine.stream().mapToDouble(i->i).toArray();
+            double[] sineData   = sine.stream().mapToDouble(i->i).toArray();
+
+
             // Using the Chart Class from Day14.java
             // Make your files are in the same package
             // Package : https://www.w3schools.com/java/java_packages.asp 
-            Graph line = new Graph("Data processing", "Sine and Cosine");
+            Graph sine_cosine = new Graph("Data processing", "Sine and Cosine");
+            // add data in the chart using the function addData()
+            sine_cosine.addData("Angles",anglesData);
+            sine_cosine.addData("Cosine",cosineData);
+            sine_cosine.addData("Sine",sineData);
+
+            // plot
+            sine_cosine.plot();
+            sine_cosine.pack();
+            RefineryUtilities.centerFrameOnScreen( sine_cosine );  // center your frame in your screen
+            sine_cosine.setVisible( true );
 
         }
         catch(IOException e)
@@ -263,6 +305,10 @@ public class Day18
         }
          
 
+         // you will see dots on the X axis. (for displaying the angles)
+         // I did not fix for this code :)
+         // https://stackoverflow.com/questions/45327114/jfreechart-displaying-three-dots-in-place-of-the-values-on-the-x-axis
+         
          System.out.println("End of program.");
  
     }
