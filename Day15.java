@@ -4,9 +4,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 15 : 
+// Day 15 : File Handling
 // Day 15 | IG : https://www.instagram.com/benjivrik/
-// Subject :   File Handling
 // ----------------------------------------------------
 // what would be the output of this program ?
 

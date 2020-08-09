@@ -4,9 +4,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 11 : 
+// Day 11 :  Challenge VII - Rock Paper Scissors
 // Day 11 | IG : https://www.instagram.com/benjivrik/
-// Subject :   Challenge VII - Rock Paper Scissors
 // ----------------------------------------------------
 // what would be the output of this program ?
 import java.util.Random;

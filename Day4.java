@@ -4,9 +4,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 4 : 
+// Day 4 :  Challenge II - Input and user functions using the Scanner util from java
 // Day 4 | IG : https://www.instagram.com/benjivrik/
-// Subject :  Challenge II - Input and user functions using the Scanner util from java
 // ----------------------------------------------------
 // what would be the output of this program ?
 

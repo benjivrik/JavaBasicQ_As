@@ -4,9 +4,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 13 : 
+// Day 13 : Challenge Module - Jfreechart
 // Day 13 | IG : https://www.instagram.com/benjivrik/
-// Subject :   Challenge Module - Jfreechart
 // ----------------------------------------------------
 // what would be the output of this program ?
 

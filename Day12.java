@@ -4,9 +4,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 12 : 
+// Day 12 : Dictionary (key,value) using java Hashmap
 // Day 12 | IG : https://www.instagram.com/benjivrik/
-// Subject :   Dictionary (key,value) using java Hashmap
 // ----------------------------------------------------
 // what would be the output of this program ?
 

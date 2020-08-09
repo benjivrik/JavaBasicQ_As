@@ -4,9 +4,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 8 : 
+// Day 8 : Challenge V - Guess the number 
 // Day 8 | IG : https://www.instagram.com/benjivrik/
-// Subject :    Challenge V - Guess the number 
 // ----------------------------------------------------
 // what would be the output of this program ?
 

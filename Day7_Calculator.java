@@ -6,9 +6,8 @@ import java.util.Scanner;
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 7 : 
+// Day 7 : Challenge IV - Basic Calculator
 // Day 7 | IG : https://www.instagram.com/benjivrik/
-// Subject :  challenge IV - Basic Calculator
 // ----------------------------------------------------
 // what would be the output of this program ?
 

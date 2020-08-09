@@ -4,9 +4,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 14 : 
+// Day 14 : Challenge VIII - Plot your data from your Hasmap "Dictionary" with a line chart
 // Day 14 | IG : https://www.instagram.com/benjivrik/
-// Subject :   Challenge VIII - Plot your data from your Hasmap "Dictionary" with a line chart
 // ----------------------------------------------------
 // what would be the output of this program ?
 

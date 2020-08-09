@@ -4,9 +4,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 10 : 
+// Day 10 : Challenge VI - Generate Password
 // Day 10 | IG : https://www.instagram.com/benjivrik/
-// Subject :   Challenge VI - Generate Password
 // ----------------------------------------------------
 // what would be the output of this program ?
 import java.util.Scanner;

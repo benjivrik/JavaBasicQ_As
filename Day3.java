@@ -4,9 +4,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 3 : 
+// Day 3 : Challenge I - Input and user functions using the value coming from the String[] args.
 // Day 3 | IG : https://www.instagram.com/benjivrik/
-// Subject :  Challenge I - Input and user functions using the value coming from the String[] args.
 // ----------------------------------------------------
 // what would be the output of this program ?
 

@@ -4,7 +4,7 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 2 : 
+// Day 2 :  Data types 
 // Day 2 | IG : https://www.instagram.com/benjivrik/
 // Subject :  Data types
 // ----------------------------------------------------

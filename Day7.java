@@ -4,9 +4,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 7 : 
+// Day 7 : Challenge IV - basic calculator
 // Day 7 | IG : https://www.instagram.com/benjivrik/
-// Subject :  Challenge IV - basic calculator
 // ----------------------------------------------------
 // what would be the output of this program ?
 

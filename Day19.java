@@ -6,7 +6,6 @@
 // 30 Days - Q&A Java basic
 // Day 19 : Mini Store : Employees, Items and the Store | Employees.
 // Day 19 | IG : https://www.instagram.com/benjivrik/
-// Subject : Mini Store : Employees, Items and the Store | Employees.
 // ----------------------------------------------------
 // what would be the output of this program ?
 

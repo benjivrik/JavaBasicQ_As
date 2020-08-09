@@ -4,9 +4,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 17 : Writing in a File - Data coming from the web
+// Day 17 : Challenge IX - Writing in a File (data coming from the web)
 // Day 17 | IG : https://www.instagram.com/benjivrik/
-// Subject : Challenge IX - Writing in a File (data coming from the web) 
 // ----------------------------------------------------
 // what would be the output of this program ?
 

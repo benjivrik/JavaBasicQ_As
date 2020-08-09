@@ -5,9 +5,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 6 : 
+// Day 6 : Conditions and booleans
 // Day 6 | IG : https://www.instagram.com/benjivrik/
-// Subject :  Conditions and booleans
 // ----------------------------------------------------
 // what would be the output of this program ?
 import java.util.Scanner;

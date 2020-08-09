@@ -4,9 +4,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 16 : 
+// Day 16 : Web scraping with java 
 // Day 16 | IG : https://www.instagram.com/benjivrik/
-// Subject : Web scraping with java 
 // ----------------------------------------------------
 // what would be the output of this program ?
 
