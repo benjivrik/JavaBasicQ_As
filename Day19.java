@@ -35,21 +35,27 @@ class Employee
         this.employeeSalary = employeeSalary;
     }
     // a function for the updating the status of the employee
-    public void status()
+    public boolean status()
     {
-        if(isWorking)
+        if(this.isWorking)
         {
-            isWorking = false;
+            this.isWorking = false;
             System.out.println(this.employeeName +" is no longer working.");
         }
         else
         {
-            isWorking = true;
+            this.isWorking = true;
             System.out.println(this.employeeName +" is currently working.");
         }
+        
+        return this.isWorking;
             
     }
     // getters
+    public boolean getWorkStatus()
+    {
+        return this.isWorking;
+    }
     public String getName()
     {
         return this.employeeName;
@@ -88,6 +94,8 @@ class Employee
     // for displaying your object
     public String toString()
     {
+        System.out.println("\n************** DISPLAYING EMPLOYEE INFO **************\n");
+
         String employee = String.format(
             "\nEmployee name : %s\nEmployee ID : %s\nEmployee Salary : %s CAD per hour\n",this.employeeName,this.employeeID,this.employeeSalary
             );
