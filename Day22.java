@@ -103,14 +103,14 @@ class Customer
 
         if(bill > this.bugdet)
         {
-            System.out.println("\nYour bill is "+ bill + "CAD.\n");
+            System.out.println("\nYour bill is "+ bill + " CAD.\n");
             System.out.println("However, " + this.bugdet + " CAD is your budget.\nYou might want to remove some items.\n");
         
         }
         else 
         {
-            System.out.println("\n> Your bill is "+ bill + "CAD.\n");
-            System.out.println("\n> Your budget is "+ this.bugdet + "CAD.\n");
+            System.out.println("\n> Your bill is "+ bill + " CAD.\n");
+            System.out.println("\n> Your budget is "+ this.bugdet + " CAD.\n");
             // bill <= this.budget
             System.out.println("\nYou are good to go. You have enough money.\n"); 
             canPay = true;

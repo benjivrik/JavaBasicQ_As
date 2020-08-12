@@ -69,6 +69,25 @@ class Store {
         this.employees.remove(employee);
     }
 
+    // In case the parameter is the employee name
+    // Supposing the employee names are always unique
+    public void removeEmployee(String employeeName)
+    {
+        for(Employee employee : this.employees)
+        {
+            if(employee.getName().equals(employeeName)) 
+            {
+                this.employees.remove(employee);
+
+                System.out.println("Employee '"+employeeName+"' with salary '"+employee.getSalary()+" CAD' has been removed");
+
+                break; 
+            }
+               
+        }
+        
+    }
+
     // get all items
     public List<Item> getItems()
     {
