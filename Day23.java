@@ -4,7 +4,7 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 23 : Mini Store - Customer.
+// Day 23 : Challenge XI - Your 'Mini Store'.
 // Day 23 | IG : https://www.instagram.com/benjivrik/
 // ----------------------------------------------------
 // what would be the output of this program ?
@@ -132,7 +132,7 @@ public class Day23
 
         System.out.println("\n>>>> Second customer buying items. <<<<\n");
         customerTwo.buy();
-        
+
 
         //display details about the store
         System.out.println(store);

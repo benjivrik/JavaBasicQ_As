@@ -46,7 +46,7 @@ Day 21: Mini Store : Employees, Items and the Store | Store.
 
 Day 22: Mini Store - Customer.
 
-Day 23: Challenge XI
+Day 23: Challenge XI - Your 'Mini Store'.
 
 Day 24: File Manager
 
