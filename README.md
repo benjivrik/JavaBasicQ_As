@@ -50,7 +50,7 @@ Day 23: Challenge XI - Your 'Mini Store'.
 
 Day 24: File Manager
 
-Day 25: 
+Day 25: Working with json file
 
 Day 26: 
 

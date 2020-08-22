@@ -4,8 +4,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 23 : Challenge XII - File Manager
-// Day 23 | IG : https://www.instagram.com/benjivrik/
+// Day 24 : Challenge XII - File Manager
+// Day 24 | IG : https://www.instagram.com/benjivrik/
 // ----------------------------------------------------
 // what would be the output of this program ?
 

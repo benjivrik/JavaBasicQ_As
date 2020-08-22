@@ -1,0 +1,2 @@
+{"user_category":"student","user_name":"krik","user_age":25}
+{"user_category":"ambassador","user_name":"vrik","user_age":27}
