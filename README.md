@@ -52,9 +52,9 @@ Day 24: File Manager
 
 Day 25: Working with json file
 
-Day 26: 
+Day 26: User
 
-Day 27: 
+Day 27: Challenge XII - GUI for collecting user information
 
 Day 28: 
 
