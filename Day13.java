@@ -25,7 +25,12 @@ import org.jfree.ui.RefineryUtilities;
 
 class LineChart extends ApplicationFrame {
 
-   public LineChart( String applicationTitle , String chartTitle ) {
+   /**
+    *
+    */
+   private static final long serialVersionUID = 1L;
+
+   public LineChart(String applicationTitle, String chartTitle) {
       // initialize call the parent constructor ApplicationFrame
       super(applicationTitle);
       /**

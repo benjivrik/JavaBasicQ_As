@@ -22,6 +22,11 @@ import org.jfree.ui.RefineryUtilities;
 
 class Chart extends ApplicationFrame {
 
+    /**
+     *
+     */
+   // https://stackoverflow.com/questions/285793/what-is-a-serialversionuid-and-why-should-i-use-it
+   private static final long serialVersionUID = -8644250950787120854L;
    private String chartTitle;
    private HashMap<String,int[]> data;
 

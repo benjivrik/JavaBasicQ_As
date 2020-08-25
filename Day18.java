@@ -50,7 +50,11 @@ import org.jfree.ui.RefineryUtilities;
 
 class Graph extends ApplicationFrame {
 
-   private String chartTitle;
+    /**
+     *
+     */
+    private static final long serialVersionUID = 8636866202142037430L;
+    private String chartTitle;
    private HashMap<String,double[]> data;
 
    public Graph( String applicationTitle , String chartTitle ) {
