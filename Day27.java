@@ -4,8 +4,8 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A Java basic
-// Day 26 : GUI for collecting User information
-// Day 26 | IG : https://www.instagram.com/benjivrik/
+// Day 27 : GUI for collecting User information
+// Day 27 | IG : https://www.instagram.com/benjivrik/
 // ----------------------------------------------------
 // what would be the output of this program ?
 
