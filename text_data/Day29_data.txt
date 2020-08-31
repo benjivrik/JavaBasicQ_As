@@ -1,0 +1,5 @@
+ID		User Information
+1		{"user_category":"Student","user_firstname":"Benjamin","user_lastname":"Kataliko","user_dateOfBirth":1885-05-24}
+
+2		{"user_category":"Student","user_firstname":"COOK","user_lastname":"Tim","user_dateOfBirth":1700-08-09}
+

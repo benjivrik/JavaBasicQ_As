@@ -54,11 +54,11 @@ Day 25: Working with json file
 
 Day 26: User
 
-Day 27: Challenge XII - GUI for collecting user information
+Day 27: GUI for collecting user information
 
-Day 28: 
+Day 28: Challenge XII - GUI for collecting User information (Using User from Day26)
 
-Day 29: 
+Day 29: Challenge XIII - GUI - User information - Write information in your file 
 
-Day 30: 
+Day 30: Challenge XIV - Moving a Drawing in your GUI
 
