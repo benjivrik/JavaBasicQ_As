@@ -91,7 +91,7 @@ public class Day6 {
             else // user
             {
                 // multiply
-                System.out.printf("\nAdding 2 to your value %d gives %d.\n",user_value, Day6.double_parameter(user_value));
+                System.out.printf("\nMultiplying your value %d by 2 gives %d.\n",user_value, Day6.double_parameter(user_value));
             }
 
             System.out.printf("\nDo you want to stop ?(y/n) : ");
