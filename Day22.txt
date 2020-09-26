@@ -17,14 +17,14 @@ class Customer
 {
     private Store store;
     private String name;
-    private double bugdet;
+    private double budget;
     private HashMap<String,Double> cart;
 
     public Customer(String name, double budget)
     {
         this.store = null; // the store value is set using setStore()
         this.name = name;
-        this.bugdet = budget;
+        this.budget = budget;
         this.cart = new HashMap<String,Double>();
     }
 
@@ -101,16 +101,16 @@ class Customer
             bill += cart.get(item);
         }
 
-        if(bill > this.bugdet)
+        if(bill > this.budget)
         {
             System.out.println("\nYour bill is "+ bill + " CAD.\n");
-            System.out.println("However, " + this.bugdet + " CAD is your budget.\nYou might want to remove some items.\n");
+            System.out.println("However, " + this.budget + " CAD is your budget.\nYou might want to remove some items.\n");
         
         }
         else 
         {
             System.out.println("\n> Your bill is "+ bill + " CAD.\n");
-            System.out.println("\n> Your budget is "+ this.bugdet + " CAD.\n");
+            System.out.println("\n> Your budget is "+ this.budget + " CAD.\n");
             // bill <= this.budget
             System.out.println("\nYou are good to go. You have enough money.\n"); 
             canPay = true;
@@ -139,7 +139,7 @@ class Customer
                 // update item in the store
                 this.store.sell(item, quantity);
                 // decrease the customer budget
-                this.bugdet -= cart.get(itemName);
+                this.budget -= cart.get(itemName);
             }
             // empty the cart
             this.cart.clear();
@@ -156,7 +156,7 @@ class Customer
     {
         System.out.println("\n************** DISPLAYING CUSTOMER INFO **************\n");
         String customer = "";
-        customer += "\n> Customer name : "+this.name+".\n"+"> Customer budget : "+this.bugdet+" CAD.\n";
+        customer += "\n> Customer name : "+this.name+".\n"+"> Customer budget : "+this.budget+" CAD.\n";
 
         // get the list of items from the store
         List<Item> items = this.store.getItems();
