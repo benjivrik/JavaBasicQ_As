@@ -88,7 +88,7 @@ class Employee
     // the number of employee created.
     public int getEmployeeNumber()
     {
-        return this.totalEmployee++;
+        return this.totalEmployee;
     }
 
     // for displaying your object
