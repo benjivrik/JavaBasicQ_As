@@ -9,3 +9,5 @@ Un langage de programming en Orienté Object (OOP)
 You can find a full documentation here :  https://docs.oracle.com/javase/9/docs/api/overview-summary.html
 
 For my environment, I use visual code.
+
+// useful for WSL2: https://stackoverflow.com/questions/63866813/what-is-the-proper-way-of-using-jdk-on-wsl2-on-windows-10

@@ -64,7 +64,7 @@ public class Day11
                     {
                         System.out.println
                         (
-                            String.format("I played %s\nAnd you played %s.", user_play, computer_play)
+                            String.format("I played %s\nAnd you played %s.", computer_play, user_play)
                         );
                         System.out.println("\n> We are equal here. Let's continue <\n");
                     }
@@ -72,7 +72,7 @@ public class Day11
                     {
                         System.out.println
                         (
-                            String.format("I played %s\nAnd you played %s.", user_play, computer_play)
+                            String.format("I played %s\nAnd you played %s.", computer_play, user_play)
                         );
                         System.out.println("\n> You win. <\n");
 
@@ -82,7 +82,7 @@ public class Day11
                     {
                         System.out.println
                         (
-                            String.format("I played %s\nAnd you played %s.", user_play, computer_play)
+                            String.format("I played %s\nAnd you played %s.", computer_play, user_play)
                         );
                         System.out.println("\n> I win. <\n");
 
@@ -94,7 +94,7 @@ public class Day11
                     {
                         System.out.println
                         (
-                            String.format("I played %s\nAnd you played %s.", user_play, computer_play)
+                            String.format("I played %s\nAnd you played %s.", computer_play, user_play)
                         ); 
                         System.out.println("\n> I win. <\n");
 
@@ -104,7 +104,7 @@ public class Day11
                     {
                         System.out.println
                         (
-                            String.format("I played %s\nAnd you played %s.", user_play, computer_play)
+                            String.format("I played %s\nAnd you played %s.", computer_play, user_play)
                         );
                         System.out.println("\n> We are equal here. Let's continue <\n");
                     }
@@ -112,7 +112,7 @@ public class Day11
                     {
                         System.out.println
                         (
-                            String.format("I played %s\nAnd you played %s.", user_play, computer_play)
+                            String.format("I played %s\nAnd you played %s.", computer_play, user_play)
                         );
                         System.out.println("\n> You win. <\n");
 
@@ -124,7 +124,7 @@ public class Day11
                     {
                         System.out.println
                         (
-                            String.format("I played %s\nAnd you played %s.", user_play, computer_play)
+                            String.format("I played %s\nAnd you played %s.", computer_play, user_play)
                         );
                         System.out.println("\n> You win. <\n");
 
@@ -134,7 +134,7 @@ public class Day11
                     {
                         System.out.println
                         (
-                            String.format("I played %s\nAnd you played %s.", user_play, computer_play)
+                            String.format("I played %s\nAnd you played %s.", computer_play, user_play)
                         );
                         System.out.println("\n> I win. <\n");
 
@@ -144,7 +144,7 @@ public class Day11
                     { 
                         System.out.println
                         (
-                            String.format("I played %s\nAnd you played %s.", user_play, computer_play)
+                            String.format("I played %s\nAnd you played %s.", computer_play, user_play)
                         );
                         System.out.println("\n> We are equal here. Let's continue <\n");
                     }
