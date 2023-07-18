@@ -114,7 +114,6 @@ public class Day26
         user.setDateOfBirth(1987, 04, 14);
 
         // print your user data
-
         System.out.println(user);
 
         // Empty user

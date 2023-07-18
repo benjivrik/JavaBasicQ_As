@@ -169,6 +169,7 @@ class GUI_D28 extends JPanel
 
         add(imgPanel, BorderLayout.CENTER);
         add(infoPanel, BorderLayout.EAST);
+
     }
 }
 public class Day28  
@@ -178,9 +179,9 @@ public class Day28
         JFrame frame = new JFrame("User registration");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setContentPane(new GUI_D28());
-        frame.pack();
         frame.setLocationRelativeTo(null);
-        frame.setVisible(true);
         frame.setResizable(false);
+        frame.setVisible(true);
+        frame.pack();
     }
 }

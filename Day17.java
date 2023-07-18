@@ -12,9 +12,9 @@
 
 import java.util.List;
 
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.html.HtmlElement;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import org.htmlunit.WebClient;
+import org.htmlunit.html.HtmlElement;
+import org.htmlunit.html.HtmlPage;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -44,12 +44,13 @@ public class Day17 {
 			HtmlPage page = client.getPage(baseUrl);
             
             // Get all the html element h4 with class="title-in-content"
-            List<HtmlElement> items = (List<HtmlElement>) (Object) page.getByXPath("//h4[@class='title-in-content']") ;
+            List<HtmlElement> items = (List<HtmlElement>) (Object) page.getByXPath("//h5[@class='title-description']") ;
             
             if(items.isEmpty())
             {
 				System.out.println("Nothing found with your request.");
-            }else{
+            }
+            else{
 
                 File directory = new File(PATH);
         
@@ -89,7 +90,7 @@ public class Day17 {
                 try
                 {
 
-                    System.out.println("\n>>>>  GETTING ALL H4 TAGS <<<<\nfrom: "+ baseUrl +"\n");
+                    System.out.println("\n>>>>  GETTING ALL H5 TAGS <<<<\nfrom: "+ baseUrl +"\n");
                     // Write inside the file
                     FileWriter writer =  new FileWriter(file.getAbsolutePath());
                     System.out.println("\n----------- WRITING ------------\n");
@@ -101,7 +102,7 @@ public class Day17 {
                     // print the h4 found.
                     for(HtmlElement htmlItem : items){
                         writer.write(
-                            String.format("%d\t\t%s\n",index++,htmlItem.asText())
+                            String.format("%d\t\t%s\n",index++,htmlItem.asNormalizedText())
                         );
                         // System.out.println(
                         //      "> " + (index++) + ":\n" + htmlItem.asText()

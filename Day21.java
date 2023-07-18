@@ -128,8 +128,8 @@ class Store {
             int inStock = this.itemStocks.get(item.getItemName());
 
            
-            // you should catch all the possibility
-            // assuming that quantity is always less than the value of inStock
+            // Ideally, you should catch all the possibilities
+            // For now, assume that the quantity is always less than the value of inStock
             
             if(inStock == 0)
             {

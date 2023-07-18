@@ -117,10 +117,10 @@ public class Day27
         JFrame frame = new JFrame("User registration");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setContentPane(new GUI());
-        frame.pack();
         frame.setLocationRelativeTo(null);
-        frame.setVisible(true);
         frame.setResizable(false);
+        frame.setVisible(true);
+        frame.pack();
 
 
     }

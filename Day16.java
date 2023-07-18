@@ -35,13 +35,14 @@ public class Day16 {
         client.getOptions().setJavaScriptEnabled(false);
 		client.getOptions().setCssEnabled(false);
         
+        System.out.println();
         // Start parsing your page
 		try {
             // get your html page
 			HtmlPage page = client.getPage(baseUrl);
             
-            // Get all the html element h4 with class="title-in-content"
-            List<HtmlElement> items = (List<HtmlElement>) (Object) page.getByXPath("//h4[@class='title-in-content']") ;
+            // Get all the html element h5 with class="title-in-content"
+            List<HtmlElement> items = (List<HtmlElement>) (Object) page.getByXPath("//h5[@class='title-description']") ;
             
             if(items.isEmpty())
             {
@@ -50,7 +51,7 @@ public class Day16 {
                 // print all the elements collected
                 int index = 0;
 
-                // print the h4 found.
+                // print the h5 found.
 				for(HtmlElement htmlItem : items){
                     System.out.println( "> " + (index++) + ":\n" + htmlItem.asXml());
 				}
@@ -64,6 +65,8 @@ public class Day16 {
         }
         
         System.out.println("End of program.");
+
+        System.out.println();
 
     }
     

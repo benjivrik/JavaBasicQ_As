@@ -191,9 +191,9 @@ public class Day30
         JFrame frame = new JFrame("Moving a Circle.");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setContentPane(new GUI_D30());
-        frame.pack();
         frame.setLocationRelativeTo(null);
-        frame.setVisible(true);
         frame.setResizable(false);
+        frame.setVisible(true);
+        frame.pack();
     }
 }
